@@ -1,0 +1,137 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #eef2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.header-text {
+  text-align: left;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.header-text p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #555;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.form-group p {
+  font-size: 14px;
+  color: #666;
+}
+
+input:invalid {
+  border-color: #e74c3c;
+}
+
+input:invalid:focus {
+  outline-color: #e74c3c;
+}
+
+input:valid {
+  border-color: #2ecc71;
+}
+
+input:valid:focus {
+  outline-color: #2ecc71;
+}
+
+.error {
+  border-color: #e74c3c;
+  background-color: #ffe5e5;
+}
+
+.form-group .error-message {
+  color: #e74c3c;
+  font-size: 12px;
+  display: none;
+}
+
+.form-group input.error + .error-message {
+  display: block;
+}

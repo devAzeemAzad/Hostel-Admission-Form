@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="header-text">
+                <h1>ECB / CET Hostel</h1>
+                <p>Hostel Admission Form</p>
+            </div>
+        </header>
+        <form id="hostelForm">
+            <div class="form-group">
+                <label for="hostelName">Hostel Name:</label>
+                <input type="text" id="hostelName" name="hostelName" required>
+                <span class="error-message">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+                <label for="fatherName">Father's Name:</label>
+                <input type="text" id="fatherName" name="fatherName" required>
+                <span class="error-message">Please enter your father's name.</span>
+            </div>
+            <div class="form-group">
+                <label for="fatherOccupation">Father's Occupation:</label>
+                <input type="text" id="fatherOccupation" name="fatherOccupation" required>
+                <span class="error-message">Please enter your father's occupation.</span>
+            </div>
+            <div class="form-group">
+                <label for="collegeName">Name of College:</label>
+                <input type="text" id="collegeName" name="collegeName" required>
+                <span class="error-message">Please enter the name of your college.</span>
+            </div>
+            <div class="form-group">
+                <label for="courseName">Course Name:</label>
+                <input type="text" id="courseName" name="courseName" required>
+                <span class="error-message">Please enter the name of your course.</span>
+            </div>
+            <div class="form-group">
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required>
+                <span class="error-message">Please enter your branch.</span>
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester" required>
+                <span class="error-message">Please enter your semester.</span>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <span class="error-message">Please enter your date of birth.</span>
+            </div>
+            <div class="form-group">
+                <label for="challanNo">Challan No.:</label>
+                <input type="text" id="challanNo" name="challanNo" required>
+                <span class="error-message">Please enter the challan number.</span>
+            </div>
+            <div class="form-group">
+                <label for="challanDate">Date:</label>
+                <input type="date" id="challanDate" name="challanDate" required>
+                <span class="error-message">Please enter the date.</span>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                <span class="error-message">Please enter the amount.</span>
+            </div>
+            <div class="form-group">
+                <label for="identificationMark">Mark of Identification:</label>
+                <input type="text" id="identificationMark" name="identificationMark" required>
+                <span class="error-message">Please enter the mark of identification.</span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message">Please enter your email ID.</span>
+            </div>
+            <div class="form-group">
+                <label for="permanentAddress">Permanent Address:</label>
+                <textarea id="permanentAddress" name="permanentAddress" required></textarea>
+                <span class="error-message">Please enter your permanent address.</span>
+            </div>
+            <div class="form-group">
+                <label for="fatherMobile">Father's Mobile No.:</label>
+                <input type="tel" id="fatherMobile" name="fatherMobile" pattern="[0-9]{10}" required>
+                <span class="error-message">Please enter your father's mobile number.</span>
+            </div>
+            <div class="form-group">
+                <label for="studentMobile">Student's Mobile No.:</label>
+                <input type="tel" id="studentMobile" name="studentMobile" pattern="[0-9]{10}" required>
+                <span class="error-message">Please enter your mobile number.</span>
+            </div>
+            <div class="form-group">
+                <label for="localGuardianName">Local Guardian's Name:</label>
+                <input type="text" id="localGuardianName" name="localGuardianName" required>
+                <span class="error-message">Please enter the local guardian's name.</span>
+            </div>
+            <div class="form-group">
+                <label for="localGuardianOccupation">Local Guardian's Occupation:</label>
+                <input type="text" id="localGuardianOccupation" name="localGuardianOccupation" required>
+                <span class="error-message">Please enter the local guardian's occupation.</span>
+            </div>
+            <div class="form-group">
+                <label for="localGuardianMobile">Local Guardian's Mobile/Phone No.:</label>
+                <input type="tel" id="localGuardianMobile" name="localGuardianMobile" pattern="[0-9]{10}" required>
+                <span class="error-message">Please enter the local guardian's mobile/phone number.</span>
+            </div>
+            <div class="form-group">
+                <label for="emergencyContact">Whom to Contact in Emergency:</label>
+                <input type="text" id="emergencyContact" name="emergencyContact" required>
+                <span class="error-message">Please enter the emergency contact person.</span>
+            </div>
+            <div class="form-group">
+                <label for="emergencyMobile">Emergency Contact Mobile/Phone No.:</label>
+                <input type="tel" id="emergencyMobile" name="emergencyMobile" pattern="[0-9]{10}" required>
+                <span class="error-message">Please enter the emergency contact mobile/phone number.</span>
+            </div>
+            <div class="form-group">
+                <label for="diseases">Mention the Name of Diseases (If Any):</label>
+                <textarea id="diseases" name="diseases"></textarea>
+                <span class="error-message">Please mention any diseases (if any).</span>
+            </div>
+            <div class="form-group">
+                <label>Declaration:</label>
+                <p>
+                    I hereby certify that I have read all the rules and regulations about the hostel, particularly those
+                    regarding going to
+                    the market, local guardian’s place or seeing visitors and my ward will pay the full hostel dues in
+                    advance. He will
+                    abide by the rules and regulations of the ECB / CET Hostel that may be in force from time to time.
+                </p>
+                <div class="form-group">
+                    <label for="studentSignature">Student's Signature:</label>
+                    <input type="text" id="studentSignature" name="studentSignature" required>
+                </div>
+                <div class="form-group">
+                    <label for="parentSignature">Parent's/Guardian's Signature:</label>
+                    <input type="text" id="parentSignature" name="parentSignature" required>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
